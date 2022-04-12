@@ -16,3 +16,13 @@ p1 = Person()
 p2 = Person()
 p3 = Person()
 print("인스턴스 개수 :", Person.num_person)
+
+#클래스에 추가
+Person.title = "new title"
+print(Person.title)
+print(p1.title)
+
+#인스턴스에 추가
+p1.age = 30
+print(p1.age)
+print(p2.age)
