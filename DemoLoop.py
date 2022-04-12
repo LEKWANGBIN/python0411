@@ -37,3 +37,30 @@ for i in lst:
 #수열함수
 result = list(range(10))
 print(result) 
+years = list(range(2000,2023))
+print(years)
+
+#리스트컴프리헨션
+lst = list(range(1,11))
+result = [i**2 for i in lst if i > 5]
+print(result)
+
+tp = ("apple", "banana", "kiwi")
+print([len(i) for i in tp])
+
+#필터링
+lst = [10,25,30]
+iterL = filter(None, lst)
+for item in iterL:
+    print(item)
+
+print("---필터링을 하면---")
+#함수 정의
+def getBiggerThan20(i):
+    return i>20
+
+#호출
+iterL = filter(getBiggerThan20, lst)
+for item in iterL:
+    print(item)
+
