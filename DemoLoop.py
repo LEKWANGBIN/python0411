@@ -23,4 +23,17 @@ for i in [2,3,4,5,6]:
     for j in [1,2,3,4,5,6,7,8,9]:
         print("{0} * {1} = {2}".format(i,j,i*j)) 
 
-  
+lst = [1,2,3,4,5,6,7,8,9,10]
+for i in lst:
+    if i > 5:
+        break 
+    print("Item:{0}".format(i))
+print("---continue---")
+for i in lst:
+    if i % 2 == 0:
+        continue
+    print("Item:{0}".format(i))
+
+#수열함수
+result = list(range(10))
+print(result) 
