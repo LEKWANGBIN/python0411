@@ -1,0 +1,5 @@
+hRst = 2  error 100: error !!
+
+error 100: error !!
+
+hRst = 2 error 100: error !!
